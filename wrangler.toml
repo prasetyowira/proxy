@@ -2,11 +2,6 @@ name = "openai-proxy"
 main = "src/index.js"
 compatibility_date = "2023-09-04"
 
-# KV Namespace binding
-kv_namespaces = [
-  { binding = "IDEMPOTENCY", id = "put-your-real-kv-id-here" }
-]
-
 [vars]
 # Define your variables in .dev.vars or using wrangler secret
 # OPENAI_API_KEY = "your-api-key"
