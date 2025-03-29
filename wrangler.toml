@@ -1,0 +1,12 @@
+name = "openai-proxy"
+main = "src/index.js"
+compatibility_date = "2023-09-04"
+
+[vars]
+# Define your variables in .dev.vars or using wrangler secret
+# OPENAI_API_KEY = "your-api-key"
+
+# Use this for more advanced configuration
+# [[env.production]]
+# workers_dev = false
+# route = { pattern = "your-domain.com/*", zone_id = "your-zone-id" } 
